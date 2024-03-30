@@ -9,28 +9,28 @@ escreval("Digite o valor de n1 = ")
 leia(n1)
 escreval("Digite o valor de n2 = ")
 leia(n2)
-escreval("Qual operação deseja realizar Adição Subtração Multiplicação Divisãoo")
-leia(operacao)
-se(operacao = "Adição") entao
-   adicao <- (n1 + n2)
-   Escreval(adicao)
-   senao
-        se(operacao = "Subtração") entao
-             subtracao <- (n1 - n2)
-             Escreval(subtracao)
-               senao
-                 se(operacao = "Multiplicação") entao
-                     multiplicacao <- (n1 * n2)
-                     Escreval(multiplicacao)
-                       senao
-                         se(operacao = "Divisão") entao
-                                divisao <- (n1 / n2)
-                                Escreval(divisao)
+escreval("Qual operaÃ§Ã£o deseja realizar? AdiÃ§Ã£o - Digite (1), SubtraÃ§Ã£o - Digite (2), MultiplicaÃ§Ã£o - Digite (3) ou DivisÃ£o - Digite (4)")
 
+leia(operacao)
+se(operacao = "1") entao
+   adicao <- (n1 + n2)
+   Escreval(n1," + ",n2," = ",adicao)
+   senao
+        se(operacao = "2") entao
+             subtracao <- (n1 - n2)
+             Escreval(n1," - ",n2," = ",subtracao)
+               senao
+                 se(operacao = "3") entao
+                     multiplicacao <- (n1 * n2)
+                     Escreval(n1," * ",n2," = ",multiplicacao)
+                       senao
+                         se(operacao = "4") entao
+                                divisao <- (n1 / n2)
+                                Escreval(n1," / ",n2," = ",divisao)
+                                
 
 
 Fimse
      Fimse
-        Fimse
           Fimse
-Fimalgoritmo
+               Fimse
